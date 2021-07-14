@@ -7,7 +7,6 @@ body{
 top banner style 
 --------------------*/
 .top-bannerbackground{
-   
     background-color: #2D25A0;
 }
 .topbanner{
@@ -20,18 +19,21 @@ top banner style
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.top-player:hover {
+    transform: scale(1.05) rotate(5deg);
+    transition: transfrom 2s ease-in-out;
+}
 #top-title{
     font-size: 180%;
     color: #FFFFFF;
 }
-
 .button{
     width: 165px;
     height: 45px;
     background-color: #E02C6D;
     border: none;
     color: #FFFFFF;
-}
+}    
 .fas{
     margin-left: 8px;
 }
@@ -79,7 +81,7 @@ top banner style
     margin-top: 8%;
 }
 /*-------------------- 
-5th Icon section 
+ Social Media Icon 
 --------------------*/
 .icon{
     margin-left: 45%;
@@ -87,4 +89,25 @@ top banner style
 }
 .fab{
     margin-left: 8px;
+}
+/*------------------ 
+footer section 
+------------------*/
+#footer{
+    text-align: center;
+}
+/*----------------- 
+Media Queries 
+-----------------*/
+/* Web size for Mobile */
+@media only screen and(max-width:688px){
+    .grid{
+        width: 100%;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid{
+        flex-direction: column;
+    }
 }
