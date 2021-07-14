@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+/*-------------------- 
+top banner style 
+--------------------*/
+.top-bannerbackground{
+   
+    background-color: #2D25A0;
+}
+.topbanner{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 80%;
+   margin: auto;
+}
+.top-player{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#top-title{
+    font-size: 180%;
+    color: #FFFFFF;
+}
+
+.button{
+    width: 165px;
+    height: 45px;
+    background-color: #E02C6D;
+    border: none;
+    color: #FFFFFF;
+}
+.fas{
+    margin-left: 8px;
+    color: #FFFFFF;
+}
+
+/*-----------------------------
+ Middle Player Profile style 
+ ------------------------------*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.players{
+    margin-right: 25px;
+    margin-top: 20px;
+    border: 1px solid #FFFFFF;
+    padding: 15px;
+    box-shadow: 1px 2px 4px 4px #888888;
+    border-radius: 3px;
+}
+/*-----------------------
+ 3rd Football section 
+ -----------------------*/
