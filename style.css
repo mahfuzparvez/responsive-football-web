@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
@@ -33,7 +34,6 @@ top banner style
 }
 .fas{
     margin-left: 8px;
-    color: #FFFFFF;
 }
 
 /*-----------------------------
@@ -57,3 +57,34 @@ top banner style
 /*-----------------------
  3rd Football section 
  -----------------------*/
+.head-of-3rd-section{
+    display: flex;
+    margin-top: 8%;
+    align-items: center;
+}
+.third-sction{
+    margin-left: 8%;
+    margin-right: 4%;
+}
+
+#title-of-3rd{
+    color: #0A0826;
+    font-size: 48px;
+}
+/*------------------- 
+4th Logo section  
+--------------------*/
+#logo{
+    margin-left: 40%;
+    margin-top: 8%;
+}
+/*-------------------- 
+5th Icon section 
+--------------------*/
+.icon{
+    margin-left: 45%;
+    font-size: 20px;
+}
+.fab{
+    margin-left: 8px;
+}
