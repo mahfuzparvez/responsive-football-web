@@ -1,113 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-body{
+
+body {
     margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
+
 /*-------------------- 
 top banner style 
 --------------------*/
-.top-bannerbackground{
+.top-bannerbackground {
     background-color: #2D25A0;
+    height: 450px;
 }
-.topbanner{
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   width: 80%;
-   margin: auto;
+
+.topbanner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
 }
-.top-player{
+
+.top-player {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 .top-player:hover {
-    transform: scale(1.05) rotate(5deg);
-    transition: transfrom 2s ease-in-out;
+    transform: skew(30deg, 5deg);
+    /* transform: scale(1.05) rotate(8deg); */
+    /* transition: transfrom 8s ease-out; */
+    transition-duration: 1s;
+    /* transition-delay: 7s; */
 }
-#top-title{
+
+#top-title {
     font-size: 180%;
     color: #FFFFFF;
 }
-.button{
+
+.button {
     width: 165px;
     height: 45px;
     background-color: #E02C6D;
     border: none;
     color: #FFFFFF;
-}    
-.fas{
+}
+
+.fas {
     margin-left: 8px;
 }
 
 /*-----------------------------
  Middle Player Profile style 
  ------------------------------*/
-.grid{
+.grid {
     display: grid;
-    grid-template-columns: repeat(3, 4fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     padding-top: 70px;
     padding-left: 60px;
 }
-.players{
-    margin-right: 25px;
-    margin-top: 20px;
-    border: 1px solid #FFFFFF;
-    padding: 15px;
-    box-shadow: 1px 2px 4px 4px #888888;
-    border-radius: 3px;
+
+.players {
+    margin: 20px;
+    /* margin-right: 25px;
+    margin-top: 20px; */
+    border: 1px solid wheat;
+    box-shadow: 8px 8px 8px #888888;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #d4d1d1;
 }
+
+.players img,
+h2,
+p {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #0a054d;
+}
+
 /*-----------------------
  3rd Football section 
  -----------------------*/
-.head-of-3rd-section{
+.head-of-3rd-section {
     display: flex;
     margin-top: 8%;
     align-items: center;
 }
-.third-sction{
+
+.head-of-3rd-section img {
+    border-radius: 5px;
+}
+
+.head-of-3rd-section p {
+    margin-left: -0px;
+}
+
+.third-sction {
     margin-left: 8%;
     margin-right: 4%;
 }
 
-#title-of-3rd{
+#title-of-3rd {
     color: #0A0826;
     font-size: 48px;
 }
+
 /*------------------- 
 4th Logo section  
 --------------------*/
-#logo{
-    margin-left: 40%;
-    margin-top: 8%;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
+
 /*-------------------- 
  Social Media Icon 
 --------------------*/
-.icon{
+.icon {
     margin-left: 45%;
     font-size: 20px;
 }
-.fab{
+
+.fab {
     margin-left: 8px;
 }
+
 /*------------------ 
 footer section 
 ------------------*/
-#footer{
+#footer {
     text-align: center;
 }
+
 /*----------------- 
 Media Queries 
 -----------------*/
 /* Web size for Mobile */
-@media only screen and(max-width:688px){
-    .grid{
+@media only screen and(max-width: 688px) {
+    .grid {
         width: 100%;
-    }
-    .grid{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .grid{
-        flex-direction: column;
     }
 }
